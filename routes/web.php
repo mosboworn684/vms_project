@@ -36,7 +36,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
  */
-
+//awdawdwadw
 //ลืมรหัสผ่าน
 Route::get('/send', [HomeController::class, "sendnotification"]);
 Route::put('/forgotpassword', [LoginController::class, 'resetpassword'])->name('login.resetpassword');
